@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Interactive Learning Platform</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <!-- Header Section -->
+    <header class="text-center mt-4">
+        <h1>Course Title</h1>
+        <p>Subtitle or course description</p>
+    </header>
+
+    <!-- Language Selection -->
+    <div class="text-right mb-3">
+        <label for="languageSelect">Select Language:</label>
+        <select id="languageSelect" class="ml-2">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <!-- Add more language options as needed -->
+        </select>
+    </div>
+
+    <!-- Course Structure -->
+    <div class="row">
+        <!-- Sidebar Navigation -->
+        <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#section1">
+                            Section 1
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">
+                            Section 2
+                        </a>
+                    </li>
+                    <!-- Add more sections and subsections as needed -->
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <!-- Video Player -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+            </div>
+
+            <!-- Content for Section 1 -->
+            <section id="section1" class="mt-4">
+                <h2>Section 1: Introduction</h2>
+                <p>Your content goes here...</p>
+            </section>
+
+            <!-- Content for Section 2 -->
+            <section id="section2" class="mt-4">
+                <h2>Section 2: Advanced Topics</h2>
+                <p>Your content goes here...</p>
+            </section>
+            <!-- Add more sections and subsections as needed -->
+        </main>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Your custom scripts go here -->
+
+</body>
+</html>
